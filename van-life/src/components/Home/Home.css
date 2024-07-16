@@ -1,0 +1,49 @@
+
+
+.homeContainer {
+    background-image: url('/HomeBG.png');
+    background-size: cover; /* Ensure the image covers the whole container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    width: 100%; /* Set the width to 100% of the container */
+    display: flex; /* Optional: if you want to center content within */
+    align-items: center; /* Optional: if you want to center content within */
+    justify-content: center; /* Optional: if you want to center content within */
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+#root {
+    height: 100%;
+}
+.homeContainer h1 {
+    font-size: 90px;
+    font-weight: 800;
+    color: white;
+    text-align: left;
+    margin: 50px;
+    margin-top: 0px;
+}
+
+.homeContainer p {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+    margin: 50px;
+    margin-top: 0;
+}
+
+.homeContainer button {
+   font-family: 'Inter', sans-serif;
+   border: none;
+   background-color: #FF8C38;
+   color: white;
+   font-size: 40px;
+   font-weight: 600;
+   padding: 35px;
+   width: 90%;
+   border-radius: 30px;
+   margin-left: -55px;
+   margin-top: 80px;
+}

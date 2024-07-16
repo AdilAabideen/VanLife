@@ -1,0 +1,63 @@
+
+.navContainer {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF7ED;
+}
+.navLogo{
+    flex: 1;
+    padding-left: 5%;
+}
+
+.navLogo a {
+    font-size: 50px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    cursor: pointer;
+}
+
+.navLogo a:hover{
+    color: #161616;
+    text-decoration: underline;
+}
+.navPages a:hover{
+    color: #161616;
+    text-decoration: underline;
+}
+
+.navPages li {
+    list-style: none;
+    padding: 30px;
+}
+
+.navPages a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.navPages {
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.footCont {
+    background-color: #252525;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footCont h3 {
+    color: #AAAAAA;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
